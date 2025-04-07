@@ -1,6 +1,7 @@
+
 def decimal_to_roman(num):
     if not (0 < num < 4000):
-        return "Número fuera de rango. Introduce un número entre 1 y 3999."
+        return "Numero fuera de rango. Introduce un numero entre 1 y 3999."
 
     valores_romanos = [
         (1000, 'M'),
@@ -27,6 +28,6 @@ def decimal_to_roman(num):
     return resultado
 
 
-numero_decimal = int(input("Introduce un número decimal (1-3999): "))
+numero_decimal = int(input("Introduce un numero decimal (1-3999): "))
 numero_romano = decimal_to_roman(numero_decimal)
-print(f"El número {numero_decimal} en romano es: {numero_romano}")
+print(f"El numero {numero_decimal} en romano es: {numero_romano}")
